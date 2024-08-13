@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Solutions\ArrayString\88.MergeSortedArray\MergeSortedArray.csproj" />
     <ProjectReference Include="..\..\..\Solutions\ArrayString\MergeSortedArray\MergeSortedArray.csproj" />
   </ItemGroup>
 

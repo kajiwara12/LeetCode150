@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Solutions\ArrayString\27.RemoveElement\RemoveElement.csproj" />
     <ProjectReference Include="..\..\..\Solutions\ArrayString\RemoveElement\RemoveElement.csproj" />
   </ItemGroup>
 
