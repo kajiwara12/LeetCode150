@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Solutions\ArrayString\MergeSortedArray.csproj" />
+    <ProjectReference Include="..\..\..\Solutions\ArrayString\RemoveElement\RemoveElement.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace LeetCode150.Tests
 {
     [TestClass()]
@@ -14,7 +15,13 @@ namespace LeetCode150.Tests
         [TestMethod()]
         public void MergeTest()
         {
-            Assert.Fail();
+            MergeSortedArray m = new MergeSortedArray();
+            int[] a = new int[] { 1, 2, 3,0,0,0 };
+            int[] b = new int[] { 2, 5, 6 };
+            int[] result = new int[] {1,2,2,3,5,6};
+            //int[]test = m.Merge(a, 3, b, 3)
+            //CollectionAssert.AreEqual(result,);
+
         }
     }
 }
