@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayString", "ArrayString", "{072D6096-49BE-441E-A6F5-AF20EAEE1F67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoPointer", "TwoPointer", "{215C448B-9732-4330-9535-49A21D161714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{253B9BD6-833E-41BC-A692-E2061A05FD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrix", "Matrix", "{CD36252B-62F0-4631-BD94-047A0053643B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashmap", "Hashmap", "{7395497F-6D25-4DB9-A6DF-1CAB2711FB12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intervals", "Intervals", "{6D393876-1B55-49D4-B4A3-13C795ADD265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{FEC5DB3E-1009-4108-8F3A-1A910C0C6602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{4D4BEF63-B9DA-4E72-A4FB-3FD8A3E285D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinaryTreeGeneral", "BinaryTreeGeneral", "{6AB91F8C-E94E-481F-B3D7-DEDD2F4D174C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinaryTreeBFS", "BinaryTreeBFS", "{24BE0316-538C-4CBB-84FF-49384D6A7A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearchTree", "BinarySearchTree", "{2C4D7CB8-CD85-49AF-AB94-5484D58A9947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphGeneral", "GraphGeneral", "{A06D1DC9-FC99-4490-8E22-8DB030724B6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphBFS", "GraphBFS", "{6A9262C5-4749-4601-8838-E8B960F0F69F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trie", "Trie", "{40CE806F-1767-44F5-BB6E-89E31DFECA7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backtracking", "Backtracking", "{446BC12A-633E-4889-B4BF-973280DA9186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DivideAndConquer", "DivideAndConquer", "{F090348F-A0E7-47FC-BDD7-8A0302B18C91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KadanesAlgorithm", "KadanesAlgorithm", "{88285F06-76A4-4CA7-97C4-AB5E91F50EFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch", "BinarySearch", "{7B97D428-BE6B-4BF4-926C-0381FAD9D60B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heap", "Heap", "{771A7F64-6A7C-425E-B09D-C2BB73409086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BitManipulation", "BitManipulation", "{8406F08E-B018-48AC-BA9F-5B9BE22AB350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{97F9B1DD-E7D7-4F80-9728-BDF3184A71A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1DDP", "1DDP", "{E6789A45-511B-43D9-949B-28CCF5CA81F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multidimensional DP", "Multidimensional DP", "{0AE606A1-2D77-43AB-BAFF-9889823FB453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSortedArray", "Solutions\ArrayString\MergeSortedArray.csproj", "{E711A60F-E214-482B-B9FC-5879E028C4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortedArrayTests", "Solutions\MergeSortedArrayTests\MergeSortedArrayTests.csproj", "{6F846F31-C49D-4E6C-AC49-9DE2EC0A676F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E711A60F-E214-482B-B9FC-5879E028C4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E711A60F-E214-482B-B9FC-5879E028C4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E711A60F-E214-482B-B9FC-5879E028C4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E711A60F-E214-482B-B9FC-5879E028C4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F846F31-C49D-4E6C-AC49-9DE2EC0A676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F846F31-C49D-4E6C-AC49-9DE2EC0A676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F846F31-C49D-4E6C-AC49-9DE2EC0A676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F846F31-C49D-4E6C-AC49-9DE2EC0A676F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E711A60F-E214-482B-B9FC-5879E028C4DF} = {072D6096-49BE-441E-A6F5-AF20EAEE1F67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B50DB7DF-EED3-4271-98D5-CCDA509A6436}
+	EndGlobalSection
+EndGlobal
