@@ -1,6 +1,6 @@
-﻿namespace _121._BestTimeToBuyAndSellStock1
+﻿namespace ArrayString
 {
-    public class Class1
+    public class BestTimeToBuyAndSellStock
     {
         public int MaxProfit(int[] prices)
         {

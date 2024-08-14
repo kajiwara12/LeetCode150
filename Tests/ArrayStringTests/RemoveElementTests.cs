@@ -1,15 +1,14 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RemoveElement;
+using ArrayString;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RemoveElement.Tests
+namespace ArrayString.Tests
 {
-    [TestClass()]
-    public class Class1Tests
+    public class RemoveElementTests
     {
             [TestMethod()]
             public void RemoveElementTest()
@@ -17,8 +16,8 @@ namespace RemoveElement.Tests
                 int[] nums = [3, 2, 2, 3];
                 int[] expected = [2, 2];
                 int val = 3;
-                Class1 test = new();
-                int k = test.RemoveElement(nums, val);
+                RemoveElement test = new();
+                int k = test.RemoveElements(nums, val);
                 Array.Sort(nums, 0, k);
                 Assert.AreEqual(2, k);
 
@@ -31,12 +30,12 @@ namespace RemoveElement.Tests
 
                 int[] expected = [0, 0, 1, 3, 4];
                 int val = 2;
-                Class1 test = new();
-                int k = test.RemoveElement(nums, val);
+                RemoveElement test = new();
+                int k = test.RemoveElements(nums, val);
                 Array.Sort(nums, 0, k);
                 Assert.AreEqual(5, k);
 
                 CollectionAssert.AreEqual(nums[0..k], expected);
             }
         }
- }
+}

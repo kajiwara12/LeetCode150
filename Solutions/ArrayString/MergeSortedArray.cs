@@ -1,18 +1,21 @@
-﻿
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace LeetCode150
+namespace ArrayString
 {
     public class MergeSortedArray
     {
         public void Merge(int[] nums1, int m, int[] nums2, int n)
         {
             //Pointers
-            int i = m - 1;  
-            int j = n - 1;  
-            int k = m + n - 1;  
+            int i = m - 1;
+            int j = n - 1;
+            int k = m + n - 1;
 
-           
+
             for (int p = k; p >= 0; p--)
             {
                 if (j < 0) // No more elements in nums2 to merge
