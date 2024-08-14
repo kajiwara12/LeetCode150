@@ -53,6 +53,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayString", "Solutions\Ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayStringTests", "Tests\ArrayStringTests\ArrayStringTests.csproj", "{648A8207-BA6F-4262-B6F9-34A6271E7324}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoPointer", "Solutions\TwoPointer\TwoPointer.csproj", "{0CA6D75A-A483-474F-9ADE-BF98A0E8538A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoPointerTests", "Tests\TwoPointerTests\TwoPointerTests.csproj", "{0493F421-6AED-4104-99FE-300A67F67747}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,14 @@ Global
 		{648A8207-BA6F-4262-B6F9-34A6271E7324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648A8207-BA6F-4262-B6F9-34A6271E7324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648A8207-BA6F-4262-B6F9-34A6271E7324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA6D75A-A483-474F-9ADE-BF98A0E8538A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA6D75A-A483-474F-9ADE-BF98A0E8538A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA6D75A-A483-474F-9ADE-BF98A0E8538A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA6D75A-A483-474F-9ADE-BF98A0E8538A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0493F421-6AED-4104-99FE-300A67F67747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0493F421-6AED-4104-99FE-300A67F67747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0493F421-6AED-4104-99FE-300A67F67747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0493F421-6AED-4104-99FE-300A67F67747}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +86,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{30F788C6-4C2F-497C-A222-D3391F1DF56F} = {072D6096-49BE-441E-A6F5-AF20EAEE1F67}
 		{648A8207-BA6F-4262-B6F9-34A6271E7324} = {072D6096-49BE-441E-A6F5-AF20EAEE1F67}
+		{0CA6D75A-A483-474F-9ADE-BF98A0E8538A} = {215C448B-9732-4330-9535-49A21D161714}
+		{0493F421-6AED-4104-99FE-300A67F67747} = {215C448B-9732-4330-9535-49A21D161714}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B50DB7DF-EED3-4271-98D5-CCDA509A6436}
