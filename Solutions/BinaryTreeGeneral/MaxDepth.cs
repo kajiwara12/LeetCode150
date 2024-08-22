@@ -28,4 +28,65 @@
             return Math.Max(LeftDepth, RightDepth)+1;
         }
     }
+
+
+    public class MergeSort
+    {
+        public static void Sort(int[] array)
+        {
+            if (array == null || array.Length <= 1)
+                return;
+
+            int[] tempArray = new int[array.Length];
+            MergeSortRecursive(array, tempArray, 0, array.Length - 1);
+        }
+
+        private static void MergeSortRecursive(int[] array, int[] tempArray, int left, int right)
+        {
+            if (left >= right)
+                return;
+
+            int middle = left + (right - left) / 2;
+            MergeSortRecursive(array, tempArray, left, middle);
+            MergeSortRecursive(array, tempArray, middle + 1, right);
+            Merge(array, tempArray, left, middle, right);
+        }
+
+        private static void Merge(int[] array, int[] tempArray, int left, int middle, int right)
+        {
+            int i = left, j = middle + 1, k = left;
+
+            // Copy both halves into the temporary array
+            while (i <= middle && j <= right)
+            {
+                if (array[i] <= array[j])
+                {
+                    tempArray[k++] = array[i++];
+                }
+                else
+                {
+                    tempArray[k++] = array[j++];
+                }
+            }
+
+            // Copy the remaining elements of the left half, if any
+            while (i <= middle)
+            {
+                tempArray[k++] = array[i++];
+            }
+
+            // Copy the remaining elements of the right half, if any
+            while (j <= right)
+            {
+                tempArray[k++] = array[j++];
+            }
+
+            // Copy the sorted elements back into the original array
+            for (i = left; i <= right; i++)
+            {
+                array[i] = tempArray[i];
+            }
+        }
+    }
+
 }
