@@ -11,21 +11,20 @@ namespace ArrayString
         public string Convert(string s, int numRows)
         {
             if (numRows == 1) return s;
-            StringBuilder result = new();
-            int cycle = 2 * numRows - 2;
-            for (int r = 0; r < numRows; r++)
+
+            string[] rows = new string[Math.Min(numRows, s.Length)];
+            int currentRow = 0;
+            bool goingDown = false;
+
+            foreach (char c in s)
             {
-                for (int j = r; j < s.Length; j += cycle)
-                {
-                    result.Append(s[j]);
-                    int secondChar = j + cycle - 2 * r;
-                    if (r != 0 && r != numRows - 1 && secondChar < s.Length)
-                    {
-                        result.Append(s[secondChar]);
-                    }
-                }
+                rows[currentRow] += c;
+                if (currentRow == 0 || currentRow == numRows - 1) goingDown = !goingDown;
+                currentRow += goingDown ? 1 : -1;
             }
-            return result.ToString();
+
+            string result = string.Join("", rows);
+            return result;
         }
     }
 }
