@@ -19,7 +19,7 @@ namespace TwoPointer
                 int sum = numbers[left] + numbers[right];
                 if (sum == target)
                 {
-                    return new int[] { left + 1, right + 1 };
+                    return [left + 1, right + 1];
                 }
                 else if (sum < target)
                 {
@@ -31,7 +31,7 @@ namespace TwoPointer
                 }
             }
 
-            return new int[] { -1, -1 };
+            return [-1, -1];
         }
     }
 }

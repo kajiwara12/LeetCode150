@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayString", "ArrayString"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoPointer", "TwoPointer", "{215C448B-9732-4330-9535-49A21D161714}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{253B9BD6-833E-41BC-A692-E2061A05FD47}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Matrix", "Matrix", "{CD36252B-62F0-4631-BD94-047A0053643B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashmap", "Hashmap", "{7395497F-6D25-4DB9-A6DF-1CAB2711FB12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intervals", "Intervals", "{6D393876-1B55-49D4-B4A3-13C795ADD265}"
@@ -71,17 +67,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "Solutions\Lin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeGeneral", "Solutions\BinaryTreeGeneral\BinaryTreeGeneral.csproj", "{E89C5689-3006-4CF0-BFCD-07C0B3B2DF06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeBFS", "Solutions\BinaryTreeBFS\BinaryTreeBFS.csproj", "{ACCFBDFA-FB9D-4484-B636-2E3E7C49E20E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeBFS", "Solutions\BinaryTreeBFS\BinaryTreeBFS.csproj", "{ACCFBDFA-FB9D-4484-B636-2E3E7C49E20E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeBFSTests", "Solutions\BinaryTreeBFSTests\BinaryTreeBFSTests.csproj", "{101A0CA8-7C4F-4734-B732-6B5025DD4268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeBFSTests", "Solutions\BinaryTreeBFSTests\BinaryTreeBFSTests.csproj", "{101A0CA8-7C4F-4734-B732-6B5025DD4268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "Solutions\BinarySearchTree\BinarySearchTree.csproj", "{AE665B7C-EBA0-4A40-B2EB-8C25D6C97A0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "Solutions\BinarySearchTree\BinarySearchTree.csproj", "{AE665B7C-EBA0-4A40-B2EB-8C25D6C97A0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideAndConquer", "Solutions\DivideAndConquer\DivideAndConquer.csproj", "{04233556-F382-4B8C-A1C0-1CBE89050706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideAndConquer", "Solutions\DivideAndConquer\DivideAndConquer.csproj", "{04233556-F382-4B8C-A1C0-1CBE89050706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "Solutions\BinarySearch\BinarySearch.csproj", "{2F2FF29E-066B-4D63-A1E5-B9CD16083D12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "Solutions\BinarySearch\BinarySearch.csproj", "{2F2FF29E-066B-4D63-A1E5-B9CD16083D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitManipulation", "Solutions\BitManipulation\BitManipulation.csproj", "{959CED7D-3A4A-47D7-8EF3-492A557C6CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitManipulation", "Solutions\BitManipulation\BitManipulation.csproj", "{959CED7D-3A4A-47D7-8EF3-492A557C6CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "Solutions\SlidingWindow\SlidingWindow.csproj", "{1E6BFE6D-72C1-411F-9D03-987C34999086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Solutions\Matrix\Matrix.csproj", "{51447D4F-C892-4226-97B6-AEFD9A11E91C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +157,14 @@ Global
 		{959CED7D-3A4A-47D7-8EF3-492A557C6CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959CED7D-3A4A-47D7-8EF3-492A557C6CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959CED7D-3A4A-47D7-8EF3-492A557C6CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6BFE6D-72C1-411F-9D03-987C34999086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6BFE6D-72C1-411F-9D03-987C34999086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6BFE6D-72C1-411F-9D03-987C34999086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6BFE6D-72C1-411F-9D03-987C34999086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51447D4F-C892-4226-97B6-AEFD9A11E91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51447D4F-C892-4226-97B6-AEFD9A11E91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51447D4F-C892-4226-97B6-AEFD9A11E91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51447D4F-C892-4226-97B6-AEFD9A11E91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
